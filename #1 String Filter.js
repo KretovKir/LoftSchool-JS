@@ -1,5 +1,5 @@
-const MyString = "Привет, как дела?";
-const YourString = "Привет, всё хорошо! А твои?";
+const myString = "Привет, как дела?";
+const yourString = "Привет, всё хорошо! А твои?";
 
 function getVowels(string){
     const referens = ['а','е','ё','и','о','у','ы','э','ю','я'];
@@ -16,5 +16,5 @@ function getVowels(string){
     console.log(updateString);
 }
 
-getVowels(MyString);
-getVowels(YourString);
+getVowels(myString);
+getVowels(yourString);
