@@ -1,4 +1,4 @@
-var MyPath ='/users/Kirill/desktop/index.html';
+var myPath ='/users/Kirill/desktop/index.html';
 
 function pathSearch(path){
     var lastFive = path.slice(-5);
@@ -9,4 +9,4 @@ function pathSearch(path){
     }
 }
 
-console.log(pathSearch(MyPath));
+console.log(pathSearch(myPath));
